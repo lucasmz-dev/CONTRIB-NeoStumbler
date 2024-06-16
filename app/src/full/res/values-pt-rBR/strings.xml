@@ -1,0 +1,4 @@
+<resources>
+    <string name="prefer_fused_location">Preferir o provedor de localização combinado</string>
+    <string name="autoscan_when_moving">Escaneamento automático ao se mover</string>
+</resources>
