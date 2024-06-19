@@ -79,6 +79,22 @@
 
     <string name="show_my_location">Mostrar minha localização</string>
 
+    <string name="permission_rationale_fine_location">
+        Para conseguir o acesso à localização atual é necessário a permissão de permissão precisa
+    </string>
+
+    <string name="permission_rationale_read_phone_state">
+        Acesso ao estado do telefone é necessário para o escaneamento de torres de redes móveis com todos os cartões SIMs no dispositivo
+    </string>
+
+    <string name="permission_rationale_bluetooth">
+        Para fazer o escaneamento de sinalizadores Bluetooth, é necessária a permissão para Bluetooth
+    </string>
+
+    <string name="permission_rationale_post_notifications">
+        Para mostrar a notificação de estado, é necessária a permissão para notificações
+    </string>
+
     <string name="permission_rationale_background_location_quick_settings">
         Para começar o esceanemento pelas configurações rápidas, é necessário o acesso à localização em segundo plano
     </string>
