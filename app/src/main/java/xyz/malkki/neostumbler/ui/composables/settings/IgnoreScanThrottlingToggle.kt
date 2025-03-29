@@ -68,7 +68,7 @@ fun IgnoreScanThrottlingToggle() {
          * This assumes that the scanner service checks from system settings whether Wi-Fi scanning
          * is throttled before starting scanning
          */
-        if (context.isWifiScanThrottled() == true && enabled.value) {
+        if (context.isWifiScanThrottled() == true) {
             settingsStore.edit {
                 it[booleanPreferencesKey(PreferenceKeys.IGNORE_SCAN_THROTTLING)] = false
             }
